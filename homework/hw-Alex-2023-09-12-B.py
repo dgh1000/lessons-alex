@@ -26,7 +26,7 @@
 # creature = input("What creature do you want to fight? ")
 # if weapon == "sword":
 #     if creature == "dragon":
-#         print("You slay the dragon!")
+#         print("You slay the dragon!") 
 #     else:
 #         print("You are unable to kill the creature with your sword.")
 # elif weapon == "bow":

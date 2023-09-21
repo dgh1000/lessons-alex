@@ -18,9 +18,14 @@
 
 # Uncomment the following code and run it:
 
-# x = 3
+x = 3
 # s = f"The value of x is {x}"
 # print(s)
+
+# or you can do
+
+
+# print(f"The value of x is {x}")
 
 # Question 3: What happens when you run this code?
 
@@ -52,5 +57,33 @@ x = 3
 # the curly braces. The expression is evaluated and the
 # result is inserted into the string.
 
+# Create a format string that includes two expressions
+# (things inside the curly braces) and three variables.
 
+x = 1
+y = 2
+z = 3
+# print(f"the combined numbers of x, y, and z are equal to {x + y + z}")
 
+# print(f"the combined numbers of x and y are {x + y} but z is {z}")
+
+# TRIPLE quotes strings
+s = "A triple quoted string"
+s2 = """This is a very long string. It's so long that it starts 
+to run off the right edge of the screen we really don't want 
+that because it makes it hard to read."""
+
+room1_description = """You enter a room with a table and a chair.
+There is a door to the north and a door to the west.
+The light is dim. A fireplace glows eith embers."""
+
+# print format string that incorporates the string name
+name = "bob"
+job = "at mcdonalds"
+print(f"your name is {name}, you're an average man working {job}")
+print("We can have a single quote inside a string. It's easy.")
+# single quote: apostrophes: ', quote ": two different characters
+# The man walked in the bank and said "Give me all your money!"
+man = 'The man walked in the bank and said "Give me all your money!"'
+# man = 'another kind of string' # in Python this is allowed
+print(man)
