@@ -50,12 +50,35 @@ s2 = "Hello world i have an announcement to make"
 # many different things.
 new_string = ""
 # i: 1   2   3   4   5   6   7   8   9  10  11
-for i in range(1, len(s)+1):
-    # 
-    # what values does i take on during the loop
-    # 
-    new_string = new_string + s[-i]
-print(new_string)
+# for i in range(1, len(s)+1):
+#     # 
+#     # what values does i take on during the loop
+#     # 
+#     new_string = new_string + s[-i]
+# print(new_string)
 
+# let's review range with a single argument N:
+# goes from 0 up to one less than the argument
+# (sort of like saying range(0, N, 1))
+# for i in range(11): # goes up to 10
+#     print(i)
+
+# try range with 2 arguments
+# the two arguments are start and stop
+# start: what number to start at
+# stop: what number to stop at (not including)
+# for i in range(2,10):
+#     print(i)
+
+
+# let's review the "step" feature of range
+# three arguments to range: start, stop, step
+# start: what number to start at
+# stop: what number to stop at (not including)
+# step: how much to add each time
 # for i in range(0, 11, 2):
-    
+#     print(i)
+
+# show what happens with step is -1
+# for i in range(0,-10,-1):
+#     print(i)
