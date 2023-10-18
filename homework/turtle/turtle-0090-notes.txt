@@ -1,0 +1,5 @@
+Documentation
+
+- Google search for "Python turtle documentation"
+
+- Look in the sidebar for "Turtle graphics reference"
