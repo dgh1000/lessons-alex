@@ -13,8 +13,8 @@ from turtle import *
 # colors here: https://www.w3.org/wiki/CSS/Properties/color/keywords
 
 # EXAMPLE A
-bgcolor("black")
-color("white")
+bgcolor("navy")
+color("red")
 
 # EXPLANATION: the following line of code 
 # gives the "pensize" which is the width of the
@@ -27,6 +27,20 @@ pensize(5)
 # from the link above, modify the code in EXAMPLE A
 # to draw a shape with a different background color
 # and a different line color.
+
+# Answer: 
+pendown()
+forward(100)
+left(90)
+color("peachpuff")
+forward(100)
+left(90)
+color("salmon")
+forward(100)
+left(90)
+color("silver")
+forward(100)
+left(90)
 
 # Question #2:
 # Draw a shape that has a different color and pensize for
