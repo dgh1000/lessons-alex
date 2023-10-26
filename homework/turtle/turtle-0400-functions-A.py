@@ -1,5 +1,7 @@
 from turtle import *
 speed(9)
+
+
 # Prequisites: basic familiarity with turtle graphics
 # including commands like forward, backward, left, right,
 # penup, pendown, speed, and color.
@@ -12,6 +14,9 @@ speed(9)
 #
 # Write a turtle graphics program that draws the letter A.
 # # draw C
+color("black")
+penup()
+forward(50)
 pendown()
 left(120)
 forward(60)
@@ -21,6 +26,8 @@ backward(60)
 right(-70)
 backward(60)
 left(-120)
+penup()
+backward(50)
 
 penup()
 forward(100)
