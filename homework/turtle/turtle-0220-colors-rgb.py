@@ -5,6 +5,11 @@
 # EXPLANATION: this should be the first line of code
 # in any turtle file. Don't put other code above it.
 from turtle import *
+from colorsys import *
+
+# importing colorsys gives us access to a function
+# called hsv_to_rgb. We will use this function to
+# convert from hsv colors to rgb colors.
 
 # EXPLANATION: colors can be described with words
 # as we saw in turtle-0200-colors.py. But they can
@@ -26,9 +31,11 @@ from turtle import *
 
 # EXAMPLE A: run the file with just this code and see what
 # it does.
-bgcolor(0.0, 0.0, 0.0) # black
-color(1.0, 1.0, 1.0)   # white 
-
+# bgcolor(0.0, 0.0, 0.0) # black
+# color(1.0, 0.25, 0.0)   # white 
+# HSV stands for hue, saturation, and value.
+rgb_color = hsv_to_rgb(27/255, 0.4, 1.0)
+color(rgb_color)
 pensize(10)
 pendown()
 forward(100)

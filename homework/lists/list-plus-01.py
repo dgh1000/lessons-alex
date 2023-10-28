@@ -11,6 +11,8 @@
 # Question 2:
 # Explain in your own words what the code in EXAMPLE A does.
 
+# Answer: it comebines the values of string 1 and string 2
+
 # EXPLANATION
 # The + operator is used to combine strings. It is called
 # "concatenation". The result is a new string that is the
@@ -28,6 +30,8 @@
 # Question 3:
 # Explain in your own words what the code in EXAMPLE B does.
 
+# Answer: it combines the two lists into one big list
+
 # EXPLANATION
 # The + operator is can also be used to combine lists. 
 # Note that it has *three* purposes: 
@@ -41,4 +45,7 @@
 # Make two new lists. Combine them and print the result.
 # Try combining them in the opposite order. What happens?
 
-
+my_list = [11, 4, 12, -17, 21, -62]
+my_list2 = [10, 12, -82, 41, 27]
+combined = my_list + my_list2
+print(combined)
