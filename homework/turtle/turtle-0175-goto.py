@@ -55,5 +55,16 @@ from turtle import *
 # goto(0,0)
 # penup()
 
-# mainloop()
+# this is a triangle
+
+# bgcolor("black")
+# color("cyan")
+# speed(1)
+# pensize(5)
+# pendown()
+# goto(100, 0)
+# goto(0, 100)
+# goto(0, 0)
+
+mainloop()
 
