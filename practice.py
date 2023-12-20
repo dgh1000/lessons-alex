@@ -1,8 +1,13 @@
 def print_something(s):
     print(s)
 
-print_something("hello, " + input() + " welcome to the team")
-# def my_input(I):yes
-#     print(I)
+def add(a, b):
+    return a + b
 
-# my_input(input())
+def mult(a):
+    return a * 2
+
+my_list = [1, 10, -1, 2, 3]
+for i in my_list:
+    print(i)
+
