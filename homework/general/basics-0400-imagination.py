@@ -22,14 +22,14 @@
 # Here's a simple loop. First predict what it will do. Then
 # uncomment it and run it and see if you were right.
 
-# for i in range(10):
-#     print(i)
+for i in range(5):
+    print(2*i)
 
-# 1) How many times does the loop run?
-# 2) What is the first value of i?
-# 3) What is the last value of i?
+# 1) How many times does the loop run? A: 10
+# 2) What is the first value of i? A: 0
+# 3) What is the last value of i? A: 9
 # 4) Now write out those values in order from
-#    first to last on a sheet of paper.
+#    first to last on a sheet of paper. A: 0 1 2 3 4 5 6 7 8 9
 # 5) Touch each value in turn with your pencil.
 # 6) Now close your eyes and see if you can imagine
 #    touching each value in turn. You don't need to
