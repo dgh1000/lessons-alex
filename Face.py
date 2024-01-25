@@ -1,0 +1,23 @@
+from turtle import *
+
+pendown
+circle(100)
+penup()
+goto(-35,100)
+pendown()
+circle(10)
+penup()
+goto(35,100)
+pendown()
+circle(10)
+penup()
+goto(-45,60)
+pendown()
+right(25)
+forward(50)
+left(50)
+forward(50)
+penup()
+goto(0,0)
+right(25)
+mainloop()
