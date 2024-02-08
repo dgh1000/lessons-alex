@@ -6,19 +6,27 @@ pensize(5)
 speed(0)
 
 # 1) global variable
-orientation = 0
+x_pos = 0
 
 def draw():
     # 2) "global" statement
-    global orientation
+    global x_pos
+    # clearscreen resets all colors as well as
+    # making the screen blank
+    # position and orientation.
     clearscreen()
+    bgcolor("black")
+    color("white")
     speed(0)
     pensize(5)
-    right(orientation)
-    orientation += 10
-    forward(150)
+    penup()
+    forward(x_pos)
+    x_pos += 10 
+    side_length = 150
+    pendown()
+    forward(side_length)
     left(90)
-    forward(150)
+    forward(side_length)
     left(90)
     forward(150)
     left(90)
