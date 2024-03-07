@@ -14,7 +14,12 @@ def draw():
     # clearscreen resets all colors as well as
     # making the screen blank
     # position and orientation.
-    clearscreen()
+    # clearscreen()
+    hideturtle()
+    penup()
+    goto(0,0)
+    setheading(0)
+    dot(1000,"black")
     bgcolor("black")
     color("white")
     speed(0)
