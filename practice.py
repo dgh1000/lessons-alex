@@ -1,18 +1,14 @@
-# def print_something(s):
-#     print(s)
 
-# def add(a, b):
-#     return a + b
+# function with a return value
+def add1 (y):
+    return y + 1
 
-# def mult(a):
-#     return a * 2
+part1 = "he" 
+part2 = "llo"
+whole = part1 + part2
+# man is a string variable
+print(whole) # prints a string
 
-# my_list = [1, 10, -1, 2, 3]
-# for i in my_list:
-#     print(i)
+result = add1(1) + add1(3)
+print(result)
 
-for i in range (5):
-    if i == 2:
-        pass
-    else: print(i) 
-    
